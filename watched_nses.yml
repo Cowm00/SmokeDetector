@@ -4330,7 +4330,8 @@ items:
   ns: websitepixel.co.in.
 - ns: v9hosting.com.
 - ns: hosterpk.com.
-- comment: no longer responding 2020-04-02; enabled again 2024-10-18
+- comment: no longer responding 2020-04-02; enabled again 2024-10-18; NXDOMAIN 2025-04-01
+  disable: true
   ns: onlinemenshop.com.
 - ns: mywahosting.com.
 - comment: timeout 2020-04-02
@@ -4552,7 +4553,9 @@ items:
 - ns: worldemart.com.
 - ns: chinahoster.com.
 - ns: niagahoster.com.
-- ns: megabytesserver.com.
+- comment: 2025-03-17 NXDOMAIN
+  disable: true
+  ns: megabytesserver.com.
 - ns: servers800.com.
 - comment: 2021-04-14 NXDOMAIN
   disable: true
